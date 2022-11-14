@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+.bg-color-blue {
+  background-color: #135be7;
+}
+
+.text-color-blue {
+  color: #135be7;
+}
+
+.bg-color-green {
+  background-color: #18d10f;
+}
+
+.text-color-green {
+  color: #18d10f;
+}
+
+.bg-color-grey-dark {
+  background-color: #464646;
+}
+
+.text-color-grey-dark {
+  color: #464646;
+}
+
+.bg-color-grey-light {
+  background-color: #9f9f9f;
+}
+
+.text-color-grey-light {
+  color: #9f9f9f;
+}
+
+.bg-color-grey-md {
+  background-color: #909090;
+}
+
+.text-color-grey-md {
+  color: #909090;
+}
+
+.bg-color-orange {
+  background-color: #fb6900;
+}
+
+.text-color-orange {
+  color: #fb6900;
+}
+
+.bg-color-purple {
+  background-color: #9c05cd;
+}
+
+.text-color-purple {
+  color: #9c05cd;
+}
+
+.bg-color-red {
+  background-color: #e8032a;
+}
+
+.text-color-red {
+  color: #e8032a;
+}
+
+.bg-color-yellow {
+  background-color: #fbbf00;
+}
+
+.text-color-yellow {
+  color: #fbbf00;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

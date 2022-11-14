@@ -1,6 +1,6 @@
 const Routes = () => {
   return (
-    <div>
+    <div className="cabecalho">
       <p>Aqui ficarão as rotas</p>
     </div>
   );

@@ -1,0 +1,10 @@
+@import "./variables";
+
+@each $label in $list-color {
+  .bg-color-#{$label} {
+    background-color: map-get($map: $map-colors, $key: #{$label});
+  }
+  .text-color-#{$label} {
+    color: map-get($map: $map-colors, $key: #{$label});
+  }
+}
