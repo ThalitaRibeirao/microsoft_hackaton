@@ -14,7 +14,7 @@ const Input = ({ placeholder = "", type = "text" }) => {
         type={type}
       />
       {isPassword ? (
-        <figure className="m-0">
+        <figure className="m-0 text-color-grey-md">
           <span class="material-symbols-outlined">visibility</span>
         </figure>
       ) : null}

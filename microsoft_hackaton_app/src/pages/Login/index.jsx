@@ -10,7 +10,7 @@ const Login = () => {
             <h2 className="login-title fs-1">Entrar</h2>
             <Input type="email" placeholder="e-mail" />
             <Input type="password" placeholder="Senha" />
-            <Button text="Entrar" to="/" />
+            <Button text="Entrar" to="/learn" />
           </div>
         </div>
       </div>

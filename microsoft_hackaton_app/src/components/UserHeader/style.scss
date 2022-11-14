@@ -1,0 +1,24 @@
+.user-header {
+  padding: 16px;
+  & .course {
+    cursor: pointer;
+    & .couser-name {
+      & + figure {
+        height: 24px;
+      }
+    }
+  }
+  & .experience {
+  }
+
+  & .bell {
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+  }
+}
