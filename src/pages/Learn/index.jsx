@@ -12,7 +12,6 @@ const Learn = () => {
           <Button text="Começar" />
         </div>
       </section>
-      <p>Página Learn</p>
       <UserFooter />
     </>
   );

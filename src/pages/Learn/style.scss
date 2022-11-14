@@ -1,0 +1,7 @@
+.learn-container{
+  align-items: center;
+  min-height: 100vh;
+  & > div{
+    height: fit-content;
+  }
+}
