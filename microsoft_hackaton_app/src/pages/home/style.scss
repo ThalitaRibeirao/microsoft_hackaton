@@ -1,6 +1,8 @@
 @import "../../scss/variables";
 
 .page-home {
+  margin: auto;
+  max-width: 360px;
   min-height: 100vh;
   padding: 16px 21px;
   & .home-title {
@@ -13,29 +15,4 @@
     margin-bottom: 47px;
     text-align: center;
   }
-}
-
-%button {
-  align-items: center;
-  border-radius: 12px;
-  display: flex;
-  height: fit-content;
-  justify-content: center;
-  padding: 12px 16px;
-  width: 100%;
-  > p {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0;
-    text-align: left;
-  }
-}
-.button-orange {
-  @extend %button;
-  background-color: map-get($map: $map-colors, $key: "orange");
-  margin-bottom: 16px;
-}
-.button-white {
-  @extend %button;
-  border: solid 2px #fff;
 }
