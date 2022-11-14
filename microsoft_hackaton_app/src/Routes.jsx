@@ -6,13 +6,8 @@ import Learn from "./pages/Learn";
 import Login from "./pages/Login";
 import Notifications from "./pages/Notifications";
 import Review from "./pages/Review";
-<<<<<<< HEAD
-=======
+
 import Profile from "./pages/Profile";
-
-// import Review from "./pages/Review";
->>>>>>> 88d0469e5d9dda73011991c466dac1708116ec66
-
 
 const App = () => {
   return (
@@ -24,12 +19,9 @@ const App = () => {
         <Route path="/learn" element={<Learn />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/notifications" element={<Notifications />}></Route>
-<<<<<<< HEAD
-        <Route path="/review" element={<Review />}></Route>
-=======
         <Route path="/profile" element={<Profile />}></Route>
-        {/* <Route path="/review" element={<Review />}></Route> */}
->>>>>>> 88d0469e5d9dda73011991c466dac1708116ec66
+        <Route path="/review" element={<Review />}></Route>
+        <Route path="/review" element={<Review />}></Route>
       </Routes>
     </Router>
   );
