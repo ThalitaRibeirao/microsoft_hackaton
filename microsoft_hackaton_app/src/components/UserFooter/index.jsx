@@ -5,7 +5,10 @@ const UserFooter = () => {
     <footer className="user-footer">
       <ul className="footer-list list-unstyled m-0">
         <li>
-          <Link className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none">
+          <Link
+            className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
+            to={"/learn"}
+          >
             <figure className="footer-item-image p-2 bg-color-grey-light m-0 active">
               <img className="w-100" src="./img/learn.svg" alt="" />
             </figure>
@@ -13,7 +16,10 @@ const UserFooter = () => {
           </Link>
         </li>
         <li>
-          <Link className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none">
+          <Link
+            className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
+            to={"/review"}
+          >
             <figure className="footer-item-image p-2 bg-color-grey-light m-0">
               <img className="w-100" src="./img/review.svg" alt="" />
             </figure>
@@ -21,7 +27,10 @@ const UserFooter = () => {
           </Link>
         </li>
         <li>
-          <Link className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none">
+          <Link
+            className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
+            to={"/conquests"}
+          >
             <figure className="footer-item-image p-2 bg-color-grey-light m-0">
               <img className="w-100" src="./img/conquest.svg" alt="" />
             </figure>
@@ -29,7 +38,10 @@ const UserFooter = () => {
           </Link>
         </li>
         <li>
-          <Link className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none">
+          <Link
+            className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
+            to={"/profile"}
+          >
             <figure className="footer-item-image bg-color-grey-light m-0">
               <img className="w-100" src="./img/profile.svg" alt="" />
             </figure>
