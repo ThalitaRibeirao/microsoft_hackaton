@@ -1,0 +1,132 @@
+.profile-container{
+    min-height: 100vh;
+    background: #F1F1F1;
+    
+}
+
+
+.profile-header, .profile-info{
+    padding: 12px;
+    border-bottom: 2px solid #D9D9D9;
+}
+.profile-learn{
+    padding: 12px;
+}
+
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-header>p, .profile-header>span{
+    font-size: 24px;
+    color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+}
+.profile-info-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.profile-info-text > p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+    color: #909090;
+}
+.profile-title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 12px;
+    color: #1E1E1E;
+}
+.profile-info-image{
+    width: 72px;
+
+}
+.profile-info-image > img {
+    width: 100%;
+}
+
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.profile-buttons > div{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.rate-profile-button, .certificate-profile-button{
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+.rate-profile-button > p, .certificate-profile-button > p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: auto 0;
+    padding: 0;
+}
+.rate-profile-button > span, .certificate-profile-button > span {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: auto 0;
+    padding: 0;
+}
+.rate-profile-button{
+    background: #FB6900;
+}
+.certificate-profile-button{
+    background: #135BE7;
+}
+.create-avatar-button{
+    padding: 2px 8px;
+    border-radius: 8px;
+    background: #135BE7;
+    width: 140px;
+    margin: auto;
+
+}
+.create-avatar-button > p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: auto 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.store-button{
+    padding: 2px 8px;
+    border-radius: 8px;
+    background: #FBBF00;
+    width: 140px;
+    margin: auto;
+}
+
+.store-button > p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #464646;
+    margin: auto 0;
+    padding: 0;
+    text-align: center;
+}
