@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-import UserFooter from "../../components/UserFooter";
-import UserHeader from "../../components/UserHeader";
+import { Link } from "react-router-dom";z
 import "./style.scss";
 
 const itemBuy = (image, price) => {
@@ -21,21 +19,7 @@ const itemBuy = (image, price) => {
 };
 
 const Profile = () => {
-  const data = [
-    ["", 0],
-    ["", 0],
-    ["", 0],
-    ["", 0],
-    ["", 0],
-    ["", 0],
-    ["", 0],
-    ["", 0],
-  ];
-
-  function getItensBuy(index) {
-    let item = data[index];
-    return itemBuy(item[0], item[1]);
-  }
+  
 
   return (
     <div>
