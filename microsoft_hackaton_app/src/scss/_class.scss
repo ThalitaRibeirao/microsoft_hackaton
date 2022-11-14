@@ -8,3 +8,7 @@
     color: map-get($map: $map-colors, $key: #{$label});
   }
 }
+
+.text-white {
+  color: white;
+}

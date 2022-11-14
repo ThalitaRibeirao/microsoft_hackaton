@@ -1,8 +1,13 @@
-const Routes = () => {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+
+const App = () => {
   return (
-    <div className="cabecalho">
-      <p>Aqui ficarão as rotas</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </Router>
   );
 };
-export default Routes;
+export default App;
