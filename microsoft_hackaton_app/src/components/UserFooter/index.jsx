@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./style.scss";
-const UserFooter = () => {
+const UserFooter = ({ page = "learn" }) => {
   return (
     <footer className="user-footer">
       <ul className="footer-list list-unstyled m-0">
@@ -9,7 +9,11 @@ const UserFooter = () => {
             className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
             to={"/learn"}
           >
-            <figure className="footer-item-image p-2 bg-color-grey-light m-0 active">
+            <figure
+              className={`footer-item-image p-2 bg-color-grey-light m-0 ${
+                page === "learn" ? "active" : ""
+              }`}
+            >
               <img className="w-100" src="./img/learn.svg" alt="" />
             </figure>
             <p className="m-0 fw-bold fs-6">Aprender</p>
@@ -20,7 +24,11 @@ const UserFooter = () => {
             className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
             to={"/review"}
           >
-            <figure className="footer-item-image p-2 bg-color-grey-light m-0">
+            <figure
+              className={`footer-item-image p-2 bg-color-grey-light m-0 ${
+                page === "review" ? "active" : null
+              }`}
+            >
               <img className="w-100" src="./img/review.svg" alt="" />
             </figure>
             <p className="m-0 fw-bold fs-6">Revisar</p>
@@ -31,7 +39,11 @@ const UserFooter = () => {
             className="footer-list-item text-color-grey-dark d-flex flex-column align-items-center text-decoration-none"
             to={"/conquests"}
           >
-            <figure className="footer-item-image p-2 bg-color-grey-light m-0">
+            <figure
+              className={`footer-item-image p-2 bg-color-grey-light m-0 ${
+                page === "conquest" ? "active" : null
+              }`}
+            >
               <img className="w-100" src="./img/conquest.svg" alt="" />
             </figure>
             <p className="m-0 fw-bold fs-6">Conquista</p>

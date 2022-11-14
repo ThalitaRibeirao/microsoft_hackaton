@@ -1,0 +1,14 @@
+.page-conquests {
+  min-height: 100vh;
+  padding: 32px 0;
+  & .conquest-list {
+    & .conquest-list-item {
+      width: 270px;
+      margin: auto;
+      & figure {
+        height: 64px;
+        width: 64px;
+      }
+    }
+  }
+}
