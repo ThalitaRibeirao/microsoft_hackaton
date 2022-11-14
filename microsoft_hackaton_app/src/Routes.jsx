@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Learn from "./pages/Learn";
 import Login from "./pages/Login";
 import Notifications from "./pages/Notifications";
-import Review from "./pages/Review";
+// import Review from "./pages/Review";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/learn" element={<Learn />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/notifications" element={<Notifications />}></Route>
-        <Route path="/review" element={<Review />}></Route>
+        {/* <Route path="/review" element={<Review />}></Route> */}
       </Routes>
     </Router>
   );
