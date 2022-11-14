@@ -87,4 +87,10 @@ body {
   min-height: 100vh;
 }
 
+.page-home-bg {
+  background-image: url("../img/bg-home.png");
+  background-position-x: 20%;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */

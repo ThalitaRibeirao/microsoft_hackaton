@@ -5,7 +5,7 @@ import "./style.scss";
 const Home = () => {
   return (
     <>
-      <div className="bg-color-blue">
+      <div className="page-home-bg bg-color-blue">
         <div className="page-home d-flex flex-column">
           <h1 className="home-title text-white">educando</h1>
           <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-center">

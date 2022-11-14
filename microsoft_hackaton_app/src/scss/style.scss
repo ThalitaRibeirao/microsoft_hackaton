@@ -13,3 +13,9 @@ body {
 .container-100 {
   min-height: 100vh;
 }
+
+.page-home-bg {
+  background-image: url("../img/bg-home.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+}
