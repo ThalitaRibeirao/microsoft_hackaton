@@ -26,7 +26,7 @@ const Certificates = () => {
           </li>
           <li className="notifications-list-item certificate-list-item my-5">
             <figure className="notifications-item-image certificate-list mb-3">
-              <img className="w-100" src="./img/insignia-humanas.png" alt="" />
+              <img className="w-100" src="./img/insignia-exatas.png" alt="" />
               <figure className="certificate-image-float">
                 <img
                   className="w-100"
@@ -35,7 +35,7 @@ const Certificates = () => {
                 />
               </figure>
             </figure>
-            <h3 className="text-center text-white">Língua Portuguesa</h3>
+            <h3 className="text-center text-white">Matemática</h3>
             <p className="text-white text-center">Unidades 1 a 30</p>
           </li>
         </ul>

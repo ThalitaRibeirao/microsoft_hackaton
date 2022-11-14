@@ -1,0 +1,10 @@
+#menuOffcanvasTop {
+  height: fit-content;
+}
+.offcanvas-menu {
+  & .offcanvas-list {
+    & .offcanvas-list-item {
+      padding: 12px;
+    }
+  }
+}

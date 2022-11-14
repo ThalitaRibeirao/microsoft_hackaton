@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
+import Menu from "../Menu";
 import "./style.scss";
 const UserHeader = ({ color = "orange", course = "Língua Portuguesa" }) => {
   return (
     <header
       className={`user-header bg-color-${color} d-flex justify-content-between`}
     >
-      <div className="course text-white d-flex align-items-center gap-1">
+      <Menu />
+      <div
+        className="course text-white d-flex align-items-center gap-1"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#menuOffcanvasTop"
+        aria-controls="offcanvasTop"
+      >
         <h2 className="couser-name fs-6 m-0">{course}</h2>
         <figure className="m-0">
           <span class="material-symbols-outlined">expand_more</span>

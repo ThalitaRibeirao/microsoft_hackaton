@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./style.scss";
 const UserFooter = ({ page = "learn" }) => {
   return (
-    <footer className="user-footer">
+    <footer className="user-footer w-100">
       <ul className="footer-list list-unstyled m-0">
         <li>
           <Link
