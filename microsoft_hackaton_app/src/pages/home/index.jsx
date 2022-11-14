@@ -17,7 +17,7 @@ const Home = () => {
             <h2 className="home-subtitle text-white">
               O jeito mais legal de aprender!
             </h2>
-            <Button text="Comece agora" to="/criar-conta" />
+            <Button text="Comece agora" to="/login" />
             <Button text="Já tenho uma conta" color="white" to="/login" />
           </div>
         </div>
