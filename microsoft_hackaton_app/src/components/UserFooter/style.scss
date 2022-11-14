@@ -1,0 +1,27 @@
+@import "../../scss/variables";
+.user-footer {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  & .footer-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    & .footer-list-item {
+      padding: 8px 16px;
+      & .footer-item-image {
+        border-radius: 50%;
+        cursor: pointer;
+        height: 46px;
+        width: 46px;
+        &.active {
+          background-color: map-get($map: $map-colors, $key: "blue");
+        }
+      }
+      & .footer-item-text {
+        font-weight: 700;
+      }
+    }
+  }
+}
