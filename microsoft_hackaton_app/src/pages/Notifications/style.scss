@@ -1,0 +1,26 @@
+.page-notifications {
+  & .notifications-list {
+    & .notifications-list-item {
+      & .notifications-item-image {
+        height: 128px;
+        margin: auto;
+        position: relative;
+        width: 128px;
+        & .notification-image-float {
+          height: 64px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 64px;
+          transform: translate(25%, -25%);
+        }
+      }
+      h3,
+      p {
+        margin: auto;
+        margin-bottom: 8px;
+        max-width: 310px;
+      }
+    }
+  }
+}

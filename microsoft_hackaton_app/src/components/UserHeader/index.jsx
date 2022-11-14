@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
 const UserHeader = ({ color = "orange", course = "Língua Portuguesa" }) => {
   return (
@@ -17,9 +18,11 @@ const UserHeader = ({ color = "orange", course = "Língua Portuguesa" }) => {
         </figure>
       </div>
       <div>
-        <figure className="bell m-0 border-1">
-          <img className="w-100" src="./img/bell.svg" alt="" />
-        </figure>
+        <Link to={"/notifications"}>
+          <figure className="bell m-0 border-1">
+            <img className="w-100" src="./img/bell.svg" alt="" />
+          </figure>
+        </Link>
       </div>
     </header>
   );

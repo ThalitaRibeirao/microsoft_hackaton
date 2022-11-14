@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Login from "./pages/Login";
-import Learn from "./pages/Learn";
 import Conquest from "./pages/Conquest";
+import Home from "./pages/home";
+import Learn from "./pages/Learn";
+import Login from "./pages/Login";
+import Notifications from "./pages/Notifications";
 import Review from "./pages/Review";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/learn" element={<Learn />}></Route>
         <Route path="/conquests" element={<Conquest />}></Route>
         <Route path="/review" element={<Review />}></Route>
+        <Route path="/notifications" element={<Notifications />}></Route>
       </Routes>
     </Router>
   );

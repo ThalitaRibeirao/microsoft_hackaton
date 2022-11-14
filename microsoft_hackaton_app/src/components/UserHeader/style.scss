@@ -11,12 +11,13 @@
 
   & .bell {
     align-items: center;
-    padding: 5px;
     border-radius: 50%;
     border: solid 2px #fff;
+    cursor: pointer;
     display: flex;
     height: 32px;
     justify-content: center;
+    padding: 5px;
     width: 32px;
   }
 }
